@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\nickm\source\repos\Orc\Orc\main.cpp(5,30): error C2440: 'initializing': cannot convert from 'Orc' to 'Orc *'
+C:\Users\nickm\source\repos\Orc\Orc\main.cpp(5,12): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\nickm\source\repos\Orc\Orc\main.cpp(4): fatal error C1075: '{': no matching token found
+  Orc.cpp
+C:\Users\nickm\source\repos\Orc\Orc\Orc.cpp(6,2): error C2724: 'Orc::setSpecies': 'static' should not be used on member functions defined at file scope
+  Generating Code...

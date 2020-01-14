@@ -1,36 +1,15 @@
 #include "Orc.h"
 #include "string"
 using namespace std;
-
-class Orc
-{
-private: //properties
-	string Name;
-	static string Species;
-
-private: //methods
-	//default constructor
-	Orc(string name)
-	{
-		Name = name;
-		Species = "ORC";
-	}
-
+	
 	//getter for name
-	string getName()
-	{
-		return Name;
-	}
+	string Orc::getName() const {return this->Name;}
 
 	//returns a simple battlecry
-	string BattleCry()
+	string Orc::BattleCry() const
 	{
-		return "I am " + Name + ", and I am a proud " + Species + "!";
+		return "I am " + this->Name + ", and I am a proud " + this->Species + "!";
 	}
 
 	//returns a simple warcry
-	string warcry()
-	{
-		return "HRrrrrrr";
-	}
-};
+	string Orc::warcry() const {return "Hrrrrrrr";}

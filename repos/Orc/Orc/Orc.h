@@ -9,9 +9,9 @@ private:
 	static string Species;
 
 public:
-	Orc();
-	Orc(string);
-	string getName();
-	string BattleCry();
-	string warcry();
+	Orc(string name){this->Name = name;}
+	static void setSpecies(string species){Species = species;}
+	string getName() const;
+	string BattleCry() const;
+	string warcry() const;
 };
