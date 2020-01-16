@@ -9,5 +9,5 @@ int main()
 	cout << orcP2->BattleCry();
 	cout << orcP3->BattleCry();
 
-	
+	//test
 }
